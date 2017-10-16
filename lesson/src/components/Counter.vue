@@ -1,9 +1,9 @@
 <template>
   <div>
-    <h2>The Count is about: {{ count }}</h2>
+    <h2>The Count is something like: {{ count }}</h2>
 
     <p>
-      <button @click="count += 20">Increment</button>
+      <button @click="count += 3">Increment</button>
     </p>
   </div>
 </template>
