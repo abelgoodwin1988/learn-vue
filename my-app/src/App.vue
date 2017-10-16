@@ -7,12 +7,12 @@
 </template>
 
 <script>
-  import Message from './component/Message.vue';
+  import Message from './components/Message.vue';
 
   export default {
     name: 'app',
     components: { Message },
-    date() {
+    data() {
       return {
 
       }
